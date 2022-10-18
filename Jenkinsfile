@@ -12,10 +12,6 @@ pipeline {
             steps {
                 bat ".\\mvnw clean package"
             }
-
-            post {
-                
-            }
         }
     }
 }
